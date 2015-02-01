@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>regalburger.com</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="regalburger website">
+  <meta name="keywords" content="burger, oslavy, firemne akcie, kecup, majoneza, syr, vajicko">
+  <meta name="author" content="Peter Kona">
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag 'rails' %>
+
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+
+</body>
+</html>

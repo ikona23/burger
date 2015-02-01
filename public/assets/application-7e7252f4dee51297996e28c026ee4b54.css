@@ -1,0 +1,1708 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+/* line 1, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.tableform {
+  color: #323232;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 10, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 17, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+label {
+  font-size: 18px;
+  font-family: "myriad-pro", sans-serif;
+  color: #6c6b64;
+  font-weight: bold;
+  line-height: 1.333;
+  text-align: left;
+  margin-right: 20px;
+}
+
+/* line 27, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 31, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 37, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 44, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 54, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 59, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+#flat-button {
+  font-size: 2em;
+  margin-top: 30px;
+}
+
+/* ----- SimpleForm Styles ----- */
+/* line 66, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.simple_form div.input {
+  margin-bottom: 10px;
+  clear: both;
+  /* Required for Webkit, but not for Gecko */
+}
+
+/* line 71, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.simple_form label .email {
+  position: absolute;
+  width: 100px;
+  left: 300px;
+  text-align: right;
+  margin: 2px 10px;
+}
+
+/* line 79, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+label.collection_radio_buttons {
+  margin-right: 10px;
+  vertical-align: -2px;
+  margin-left: 2px;
+}
+
+/* line 85, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.simple_form .hint {
+  clear: left;
+  margin-left: 120px;
+  font-size: 12px;
+  color: #555;
+  display: block;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Angrogyne_TB';
+  src: url(/assets/androgyne_tb-webfont.eot);
+  src: url(/assets/androgyne_tb-webfont.eot?#iefix) format("embedded-opentype"), url(/assets/androgyne_tb-webfont.woff2) format("woff2"), url(/assets/androgyne_tb-webfont.woff) format("woff"), url(/assets/androgyne_tb-webfont.ttf) format("truetype"), url(/assets/androgyne_tb-webfont.svg#androgyneregular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RockwellExtraBoldRegular';
+  src: url(/assets/rockwell-extrabold.eot);
+  src: url(/assets/rockwell-extrabold.eot) format("embedded-opentype"), url(/assets/rockwell-extrabold.woff2) format("woff2"), url(/assets/rockwell-extrabold.woff) format("woff"), url(/assets/rockwell-extrabold.ttf) format("truetype"), url(/assets/rockwell-extrabold.svg#RockwellExtraBoldRegular) format("svg");
+}
+
+/* line 23, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 31, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+/* line 34, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 35, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.clearfix {
+  display: block;
+}
+
+/* End hide from IE-mac */
+/* line 38, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+body {
+  background: #000000;
+  background-color: #000000;
+  text-align: center;
+}
+
+/* line 42, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+/* line 49, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.wrapper {
+  width: 1280px;
+  padding: 0 10px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* line 58, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#header {
+  width: 100%;
+  height: 793px;
+  background: url(/assets/header.jpg) no-repeat center;
+}
+
+/* line 64, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#navbar {
+  width: 300px;
+  color: white;
+  text-align: center;
+  float: left;
+}
+
+/* line 70, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#main_content {
+  margin-left: 10px;
+  padding-top: 15px;
+  width: 640px;
+  color: white;
+  text-align: center;
+  float: left;
+}
+
+/* line 78, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#sidebar_main {
+  margin-left: 10px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  float: right;
+  padding-left: 30px;
+}
+
+/* line 88, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#pop_up {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+/* line 94, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle {
+  display: block;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px;
+}
+
+/* line 96, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+
+/* line 97, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle span:after {
+  top: 9px;
+}
+
+/* line 98, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+/* line 105, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #e1e5e8;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+/* line 115, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle.on span {
+  background-color: transparent;
+}
+
+/* line 118, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+/* line 121, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+
+/* line 124, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle.on + #menu {
+  opacity: 1;
+}
+
+/* menu appearance*/
+/* line 129, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu {
+  position: relative;
+  width: 260px;
+  height: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
+  font-family: 'RockwellExtraBoldRegular';
+  color: black;
+  text-transform: uppercase;
+  line-height: 3.2;
+  text-align: left;
+  border-radius: 4px;
+  background: #fffcff;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+/* line 147, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu:after {
+  position: absolute;
+  top: -15px;
+  margin-left: 70px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #fffcff;
+}
+
+/* line 157, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+ul, li, li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 163, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+li a {
+  padding: 5px;
+  color: #000000;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+/* line 170, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu li a:hover,
+#menu li a:focus {
+  color: #79babb;
+}
+
+/* line 176, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block {
+  padding-top: 50px;
+  float: left;
+  display: inline;
+  margin-right: 70px;
+}
+
+/* line 183, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block li {
+  display: inline;
+}
+
+/* line 188, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block .pinterest {
+  margin: 5px;
+}
+
+/* line 192, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block .twitter {
+  margin: 5px;
+}
+
+/* line 197, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block .fb {
+  margin: 5px;
+}
+
+/* line 203, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_title {
+  padding-top: 235px;
+}
+
+/* line 207, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_h2, #header_h2_2 {
+  font-family: 'Angrogyne_TB';
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  line-height: 1;
+  -moz-transform: matrix(0.83251, 0, 0, 0.83251, 0, 0);
+  -webkit-transform: matrix(0.83251, 0, 0, 0.83251, 0, 0);
+  -ms-transform: matrix(0.83251, 0, 0, 0.83251, 0, 0);
+}
+
+/* line 218, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_1_h4 {
+  margin-top: 40px;
+  font-size: 23px;
+  text-align: center;
+  line-height: 1.4;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+}
+
+/* line 229, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_2_h4 {
+  font-size: 23px;
+  margin-top: -3px;
+  text-align: center;
+  line-height: 1.4;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+}
+
+/* line 241, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#main_content p {
+  margin-top: 2px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  line-height: 0.6;
+  font-weight: 300;
+}
+
+/* line 254, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#navigation {
+  width: 100%;
+  float: right;
+  margin-top: -50px;
+}
+
+/* line 261, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.test {
+  margin-left: 320px;
+  text-align: center;
+}
+
+/* line 266, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#navigation li {
+  float: left;
+  white-space: nowrap;
+  background: url(/assets/hovermenu.png) no-repeat left;
+  width: 220px;
+  height: 50px;
+  z-index: -1;
+}
+
+/* line 274, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#navigation a {
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 20px;
+  margin-top: 30px;
+  z-index: 2;
+}
+
+/* line 288, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#zlozenie {
+  width: 176px;
+  float: right;
+}
+
+/* line 293, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#zakladatel a {
+  float: left;
+}
+
+/* line 297, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#zakladatel {
+  margin-right: 100px;
+}
+
+/* line 301, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.burger {
+  color: #715b24;
+  padding-top: 17px;
+  padding-right: 25px;
+}
+
+/* line 307, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.burger:hover {
+  color: #000000;
+}
+
+/* line 310, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.zakladatel {
+  color: #715b24;
+  padding-top: 17px;
+  padding-right: 20px;
+}
+
+/* line 317, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.zakladatel:hover {
+  color: #000000;
+}
+
+/* line 321, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.zlozenie {
+  color: #715b24;
+  padding-top: 17px;
+  padding-right: 20px;
+}
+
+/* line 327, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.zlozenie:hover {
+  color: #000000;
+}
+
+/* line 331, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#about {
+  width: 100%;
+  height: 1455px;
+  background: url(/assets/wood.jpg) no-repeat center;
+}
+
+/* line 336, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#cover {
+  float: right;
+  margin-left: 250px;
+  width: 100%;
+  height: 1400px;
+  background: url(/assets/noline.png) no-repeat center;
+}
+
+/* line 344, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.sticker {
+  float: right;
+  position: relative;
+  top: -60px;
+  left: 100px;
+}
+
+/* line 351, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_about {
+  height: 80px;
+  padding: 10px;
+  color: #000000;
+  width: 720px;
+  margin-left: 300px;
+  margin-top: 80px;
+}
+
+/* line 360, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_about h1 {
+  text-align: center;
+  float: right;
+  margin-right: 70px;
+  font-family: 'Angrogyne_TB';
+  font-weight: 300;
+}
+
+/* line 368, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#content div {
+  float: left;
+}
+
+/* line 373, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_about {
+  clear: both;
+  height: 1000px;
+  margin-left: 470px;
+  margin-top: 130px;
+}
+
+/* line 381, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#oburgeri, #ozakladateloch {
+  width: 610px;
+  height: 1200px;
+  font-family: "myriad-pro",sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  margin-left: 341.937px;
+  margin-top: 150px;
+}
+
+/* line 391, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#oburgeri h1, #ozakladateloch h1 {
+  font-size: 24px;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  color: #79babb;
+  left: -50px;
+  line-height: 1;
+  text-align: left;
+  width: 590px;
+  height: 40px;
+}
+
+/* line 404, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#textContent {
+  margin-top: 60px;
+}
+
+/* line 407, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#textContent h1 {
+  margin-top: 60px;
+}
+
+/* line 411, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#textContent p {
+  margin-top: -20px;
+}
+
+/* line 418, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu_burger {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 905px;
+  background: url(/assets/bg.png) no-repeat center;
+  display: block;
+}
+
+/* line 427, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_menu_burger {
+  padding-top: 130px;
+  margin-left: 550px;
+  float: left;
+}
+
+/* line 433, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu_burger_frame {
+  width: 100%;
+  top: 50px;
+  height: 100%;
+  background: url(/assets/border.png) no-repeat center;
+}
+
+/* line 440, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_mnu_burger {
+  padding-top: 18px;
+  margin-left: 190px;
+  clear: both;
+  color: white;
+}
+
+/* line 447, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_mnu_burger div {
+  padding: 10px;
+  width: 280px;
+  float: left;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+}
+
+/* line 456, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-left_menu_burger {
+  width: 240px;
+  color: #d7d4cc;
+  text-align: center;
+  float: left;
+}
+
+/* line 463, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-main_menu_r_burger {
+  margin-left: 10px;
+  padding-left: 250px;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  width: 240px;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+/* line 473, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-right_menu_s_burger {
+  margin-left: 10px;
+  width: 240px;
+  color: #e0e0e0;
+  text-align: center;
+  float: right;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+}
+
+/* line 483, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu_burger_cover {
+  text-align: center;
+}
+
+/* line 487, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#icon_beef {
+  float: left;
+  text-align: center;
+}
+
+/* line 492, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_burger, .price_veggie, .price_spec {
+  background: url(/assets/cena.png) no-repeat;
+  height: 102px;
+  margin-left: 85px;
+  float: left;
+  margin-top: 10px;
+}
+
+/* line 500, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_spec {
+  margin-top: 20px;
+}
+
+/* line 504, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.euro_burger {
+  margin-left: 20px;
+  float: left;
+}
+
+/* line 510, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_burger h1 {
+  color: #79babb;
+  font-size: 72px;
+  padding-top: 2px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+}
+
+/* line 522, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_veggie h1 {
+  color: #79babb;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  padding-top: 2px;
+}
+
+/* line 534, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_spec h1 {
+  color: #79babb;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  padding-top: 2px;
+}
+
+/* line 546, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.menu_separation {
+  float: left;
+  text-align: center;
+  margin-left: 330px;
+  margin-top: 30px;
+}
+
+/* line 553, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.vegetarian {
+  margin-top: 23px;
+}
+
+/* line 557, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_veggie {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* line 562, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_burger {
+  margin-left: 25px;
+}
+
+/* line 565, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.special {
+  margin-top: 25px;
+}
+
+/* line 569, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.special p {
+  margin-top: -30px;
+}
+
+/* line 573, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.special_recept p {
+  margin-top: -10px;
+  color: #d7d4cc;
+}
+
+/* line 578, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.vegetarian_recept p {
+  color: #d7d4cc;
+}
+
+/* line 583, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.double_regal {
+  color: #807d75;
+  padding-left: 40px;
+}
+
+/* line 588, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_special {
+  margin-left: 25px;
+}
+
+/* line 593, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad {
+  width: 100%;
+  clear: both;
+  z-index: 0;
+  height: 885px;
+  background: url(/assets/rect_wood.jpg) no-repeat center;
+}
+
+/* line 600, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad_wooden {
+  width: 100%;
+  z-index: 2;
+  height: 100%;
+  background: url(/assets/podklad.png) no-repeat center;
+}
+
+/* line 606, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad_wooden h1 {
+  width: 300px;
+  float: left;
+  padding-top: 130px;
+  margin-left: 500px;
+  font-size: 40px;
+  font-family: 'Angrogyne_TB';
+  font-weight: 300;
+}
+
+/* line 617, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.yoxview {
+  float: right;
+  margin-right: 125px;
+  margin-top: 30px;
+  width: 780px;
+}
+
+/* line 624, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad_head {
+  height: 80px;
+  padding: 5px;
+  color: #000000;
+  width: 720px;
+  margin-left: 270px;
+  margin-top: 80px;
+}
+
+/* line 633, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad_head h1 {
+  text-align: center;
+  float: right;
+  margin-right: 90px;
+  font-family: 'Angrogyne_TB';
+  font-weight: 300;
+}
+
+/* line 641, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 646, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.row1, .row2 {
+  padding: 10px;
+}
+
+/* line 649, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad div {
+  float: left;
+}
+
+/* line 653, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad-left {
+  width: 20px;
+  text-align: center;
+  float: left;
+  margin-top: 270px;
+  margin-left: 180px;
+}
+
+/* line 661, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad-right {
+  margin-left: 10px;
+  text-align: center;
+  float: right;
+  width: 70px;
+  margin-right: 40px;
+  padding-top: 450px;
+}
+
+/* line 671, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad-left svg {
+  width: 200%;
+}
+
+/* line 675, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#arrow_left:hover #one {
+  fill: #59564e;
+}
+
+/* line 679, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#arrow_left {
+  cursor: pointer;
+  width: 30%;
+}
+
+/* line 684, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#arrow_right {
+  width: 60%;
+  float: left;
+  position: relative;
+  left: -130px;
+  cursor: pointer;
+}
+
+/* line 692, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#arrow_right:hover #one {
+  fill: #59564e;
+}
+
+/* line 698, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_nacestach {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 905px;
+  background: url(/assets/bg.png) no-repeat center;
+  display: block;
+}
+
+/* line 707, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_nacestach_burger {
+  padding-top: 130px;
+  margin-left: 550px;
+  float: left;
+}
+
+/* line 713, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_nacestach_frame {
+  width: 100%;
+  top: 50px;
+  height: 100%;
+  background: url(/assets/border.png) no-repeat center;
+}
+
+/* line 720, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_regal_nacestach {
+  padding-top: 150px;
+  margin-left: 380px;
+  float: left;
+}
+
+/* line 726, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_mnu_nacestach {
+  padding-top: 25px;
+  margin-left: 80px;
+  clear: both;
+}
+
+/* line 733, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+p.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-size: 16px;
+  color: #9c9c9c;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+/* line 744, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+p.blocktext_center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-size: 16px;
+  color: #9c9c9c;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+/* line 756, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_festivaly {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 761, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_rodina {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+/* line 767, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-left_nacestach {
+  width: 240px;
+  color: white;
+  text-align: center;
+  float: left;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+
+/* line 776, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_party {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* line 781, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#icon_tent {
+  float: left;
+  text-align: center;
+  margin-left: 50px;
+}
+
+/* line 787, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#icon_cup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 793, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-main_nacestach {
+  margin-left: 70px;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  width: 240px;
+  color: #ffffff;
+  text-align: center;
+  float: left;
+  margin-top: 60px;
+}
+
+/* line 805, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_party p {
+  margin-top: -20px;
+}
+
+/* line 809, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.regal_party {
+  width: 200px;
+}
+
+/* line 813, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-right_nacestach {
+  float: right;
+  width: 240px;
+  color: white;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  margin-right: 200px;
+  margin-top: 60px;
+}
+
+/* line 825, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#footer {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #bbb;
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+/* line 836, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.cestach_button {
+  background: url(/assets/cest_button.png) no-repeat center;
+  width: 427px;
+  height: 70px;
+  text-align: center;
+  font-family: "RockwellExtraBoldRegular";
+  color: #313131;
+  text-transform: uppercase;
+  line-height: 1.2;
+  float: left;
+  margin-left: 350px;
+  margin-top: 50px;
+  clear: both;
+}
+
+/* line 852, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.cestach_button h1 {
+  padding-top: 2px;
+}
+
+/* line 856, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#clear {
+  clear: both;
+}
+
+/* line 859, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.cestach_button:hover {
+  cursor: pointer;
+  -webkit-filter: drop-shadow(1px 5px 10px #222222);
+  filter: drop-shadow(1px 5px 10px #222222);
+  color: white;
+}
+
+/* line 866, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.cestach_button:hover h1 {
+  color: #59564e;
+}
+
+/* line 875, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#testimonials {
+  width: 100%;
+  height: 260px;
+  background: url(/assets/testimonials.png) no-repeat center;
+  float: left;
+}
+
+/* line 882, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#testimonialsBg {
+  width: 100%;
+  height: 260px;
+  background: url(/assets/podklad_test_papier.png) no-repeat center;
+}
+
+/* line 888, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#testimonials h1 {
+  font-size: 24px;
+  font-family: "RockwellExtraBoldRegular";
+  color: #a4c8cb;
+  text-transform: uppercase;
+  line-height: 1.2;
+  float: left;
+  margin-left: 420px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* line 901, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#testimonials h4 {
+  font-family: "myriad-pro",sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 400;
+  float: right;
+  margin-right: 475px;
+  margin-top: 20px;
+}
+
+/* line 915, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regalgram {
+  width: 100%;
+  height: 905px;
+  background: url(/assets/instagram_bg.png) no-repeat center;
+  float: left;
+  text-align: center;
+}
+
+/* line 922, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_border {
+  width: 100%;
+  top: 50px;
+  height: 100%;
+  background: url(/assets/border.png) no-repeat center;
+}
+
+/* line 928, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regalgram_header {
+  padding-top: 145px;
+  text-align: center;
+}
+
+/* line 933, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalgram_button {
+  background: url(/assets/cest_button.png) no-repeat center;
+  width: 427px;
+  height: 70px;
+  text-align: center;
+  font-family: "RockwellExtraBoldRegular";
+  font-weight: 900;
+  color: #313131;
+  text-transform: uppercase;
+  line-height: 1.2;
+  float: left;
+  margin-left: 420px;
+  margin-top: 50px;
+}
+
+/* line 948, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalgram_button h1 {
+  padding-top: 2px;
+}
+
+/* line 952, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalgram_button:hover {
+  cursor: pointer;
+  -webkit-filter: drop-shadow(1px 5px 10px #222222);
+  filter: drop-shadow(1px 5px 10px #222222);
+  color: white;
+}
+
+/* line 959, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalgram_button:hover h1 {
+  color: #59564e;
+}
+
+/* line 963, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#regalgram_frame {
+  padding-top: 50px;
+  margin-top: 40px;
+}
+
+/* line 972, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#contact {
+  width: 100%;
+  height: 905px;
+  background: url(/assets/instagram_bg.png) no-repeat center;
+  float: left;
+  text-align: center;
+}
+
+/* line 980, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#contact_header {
+  padding-top: 65px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+/* line 986, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_contact {
+  text-align: center;
+  float: left;
+  margin-top: 35px;
+}
+
+/* line 995, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_contact h5 {
+  font-size: 32px;
+  font-family: "RockwellExtraBoldRegular";
+  font-weight: 700;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 235px;
+  margin-top: 5px;
+}
+
+/* line 1006, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_contact p {
+  font-size: 24px;
+  font-family: "myriad-pro",sans-serif;
+  color: #A4C8CB;
+  line-height: 1.2;
+  text-align: center;
+  margin-left: 245px;
+  margin-top: 25px;
+}
+
+/* line 1017, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#map {
+  float: right;
+  margin-right: 260px;
+  margin-top: 40px;
+}
+
+/* line 1024, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.open_hours {
+  font-family: 'RockwellExtraBoldRegular';
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15px;
+  color: #dddddd;
+  float: left;
+  text-transform: uppercase;
+  margin-left: 470px;
+  margin-top: 25px;
+}
+
+/* line 1039, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#social_contact {
+  clear: both;
+}
+
+/* line 1044, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.pin {
+  float: right;
+  font-size: 18px;
+  font-family: "myriad-pro",sans-serif;
+  color: #dedede;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* line 1053, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.twit {
+  padding-top: 35px;
+  float: left;
+  font-size: 18px;
+  font-family: "myriad-pro",sans-serif;
+  color: #dedede;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* line 1062, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.fac {
+  float: left;
+  margin-top: 35px;
+  font-size: 18px;
+  font-family: "myriad-pro",sans-serif;
+  color: #dedede;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 1074, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.facebook_footer {
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+  padding-right: 20px;
+}
+
+/* line 1083, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.twitter_footer {
+  padding-top: 30px;
+  float: left;
+  margin-left: 130px;
+  padding-right: 20px;
+}
+
+/* line 1091, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.pinterest_foot {
+  float: right;
+  margin-top: 35px;
+  margin-right: 150px;
+  padding-right: 5px;
+}
+
+/* line 1098, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.pinterest_footer {
+  float: left;
+  font-size: 18px;
+  padding-right: 20px;
+  margin-top: -5px;
+}
+
+/* line 1106, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.four_footer {
+  float: left;
+  margin-left: 530px;
+  margin-top: 40px;
+}
+
+/* line 1111, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.trip_footer {
+  float: right;
+  margin-right: 480px;
+  margin-top: 40px;
+}
+
+/* line 1117, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.foot_block {
+  float: left;
+}
+
+/* line 1121, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+footer {
+  height: 160px;
+  background: url(/assets/bg.png) no-repeat center;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 1130, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalburger_footer {
+  float: left;
+  color: white;
+  margin-left: 50px;
+  margin-top: 70px;
+  font-size: 14px;
+  font-family: "myriad-pro",sans-serif;
+  color: #dedede;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 1143, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.provoc_footer {
+  float: right;
+  margin-right: 50px;
+  margin-top: 70px;
+  font-size: 14px;
+  font-family: "myriad-pro",sans-serif;
+  color: #dedede;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 1158, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.form {
+  margin-top: 100px;
+  width: 100%;
+  height: 655px;
+  text-align: center;
+  background: url(/assets/papers.png) no-repeat center;
+}
+
+/* line 1165, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.form h1 {
+  font-family: 'Angrogyne_TB';
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+}
+
+/* line 1172, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+.form p {
+  font-family: "myriad-pro",sans-serif;
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+  text-align: left;
+  padding: 30px;
+  width: 500px;
+  margin-left: 200px;
+}
+
+/* line 1184, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#cenova_ponuka_meno {
+  width: 230px;
+  height: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #989790;
+  background-color: #ebeae4;
+}
+
+/* line 1193, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#cenova_ponuka_email {
+  width: 230px;
+  height: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #989790;
+  background-color: #ebeae4;
+}
+
+/* line 1201, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#cenova_ponuka_telefon {
+  width: 230px;
+  height: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #989790;
+  background-color: #ebeae4;
+}
+
+/* line 1210, /Users/Core/Desktop/xiii/app/assets/stylesheets/welcome.css.scss */
+#ponuka_block {
+  float: left;
+  margin-left: 400px;
+}
+/* YoxView v2.0 CSS file */
+#yoxview .yoxview_bottom{ bottom: 0; }
+#yoxview .yoxview_right{ float: right; }
+#yoxview .yoxview_left{ float: left; }
+
+#yoxview_popupWrap
+{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 100;
+}
+#yoxview
+{
+	position: absolute;
+	font-family: Arial, Sans-Serif;
+	z-index: 999;
+	border: solid 1px #999;
+	overflow: hidden;
+	font-size: 10pt;
+	text-align: left;
+}
+#yoxview a img, #yoxview_infoPanel a img{ border: none; }
+#yoxview a:focus{ outline: none; }
+#yoxview div.yoxview_imgPanel{ position: absolute; top: 0; left: 0; }
+#yoxview div.yoxview_mediaPanel
+{
+	position: absolute;
+
+	background: #191919;
+	width: 100%;
+	height: 100%
+}
+#yoxview .yoxview_ctlBtn
+{
+	position: absolute;
+	z-index: 3;
+	display: block;
+	text-decoration: none;
+	outline: none;
+	width: 50%;
+	height: 100%;
+}
+#yoxview .yoxview_ctlBtn img
+{
+	position: absolute;
+	border: none;
+	top: 50%;
+	margin-top: -22px;
+}
+#yoxview a.yoxview_ctlBtn:focus, #yoxview a.yoxview_ctlBtn:active{ outline: none; outline: none;}
+#yoxview .yoxview_notification
+{
+	width: 59px;
+	height: 59px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -30px;
+	margin-left: -30px;
+	z-index: 4;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	background-image: url(images/sprites.png);
+	background-repeat: no-repeat;
+	display: none;
+}
+
+#yoxview #yoxview_ajaxLoader img
+{
+	padding: 13px;
+}
+#yoxview .yoxview_popupBarPanel
+{
+	position: absolute;
+	z-index: 4;
+	min-height: 70px;
+	width: 100%;
+	right: 0;
+}
+#yoxview #yoxview_menuPanel
+{
+	width: 145px;
+	height: 42px;
+	padding-top: 0px;
+	padding-right: 9px;
+	position: absolute;
+	right: 0;
+	background: url(images/sprites.png) no-repeat left -77px;
+	background: rgba(0, 0, 0, 0.8);
+	-moz-border-radius: 0 0 0 15px;
+	-webkit-border-radius: 0 0 0 15px;
+	border-radius: 0 0 0 15px;
+	top: -42px;
+}
+
+#yoxview #yoxview_menuPanel a
+{
+	display: block;
+	width: 45px;
+	float: right;
+	text-align: center;
+	font-size: 0.8em;
+	position: relative;
+	margin-top: -5px;
+	padding-bottom: 13px;
+	text-decoration: none;
+	font-family: Arial, Sans-Serif;
+}
+#yoxview #yoxview_menuPanel a span{ color: White; display: block; margin-bottom: 3px;  }
+#yoxview #yoxview_menuPanel a.last{ margin-left: 0; }
+#yoxview #yoxview_menuPanel a:focus{ outline: none; }
+#yoxview_infoPanel
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 0;
+	color: White;
+	z-index: 2;
+	overflow: hidden;
+}
+#yoxview_infoPanel #yoxview_infoPanelBack
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+#yoxview_infoPanel #yoxview_infoPanelContent
+{
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+	top: 0;
+	left: 0;
+}
+#yoxview_infoPanel span#yoxview_count
+{
+	display: block;
+	width: 55px;
+	font-size: 0.8em;
+	float: left;
+	text-align: center;
+	padding-top: 8px;
+	color: #bbb;
+}
+#yoxview_infoPanel #yoxview_infoText
+{
+	margin: 0 55px;
+	font-size: 12pt;
+	padding: 5px 0;
+}
+#yoxview_infoPanel #yoxview_infoText #yoxview_infoTextDescription
+{
+	margin-top: 1em;
+	font-size: 10pt;
+	padding-bottom: 0.5em;
+	max-height: 200px;
+	overflow: auto;
+	padding-right: 10px;
+}
+#yoxview_infoPanel #yoxview_infoText a, #yoxview .yoxview_error a{ color: #a7d557; text-decoration: none; outline: none; }
+#yoxview_infoPanel #yoxview_infoText a:hover, #yoxview .yoxview_error a:hover{ color: #d5eeaa }
+#yoxview_infoPanel a.yoxviewInfoLink
+{
+	display: none;
+	opacity: 0.8;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+#yoxview_infoPanel a.yoxviewInfoLink:hover{ opacity: 1 }
+#yoxview #yoxview_helpPanel
+{
+	display: none;
+	width: 201px;
+	height: 312px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -171px;
+	margin-left: -111px;
+	z-index: 5;
+	color: White;
+	padding: 20px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+#yoxview #yoxview_helpPanel h1{ font-family: Arial Black, Arial, Sans-Serif; font-size: 1em; }
+#yoxview #yoxview_helpPanel p{ margin-top: 80px; }
+#yoxview #yoxview_helpPanel span#yoxview_closeHelp{ display: block; position: absolute; bottom: 20px; left: 0; text-align: center; width: 100%; }
+#yoxview .yoxview_error
+{
+	display: block;
+	text-align: center;
+	color: White;
+	font-family: Arial, Sans-Serif;
+	font-size: 14pt;
+	top: 41%;
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	padding: 10px;
+}
+#yoxview .yoxview_error .errorUrl{ font-size: 10pt; }
+#yoxview .yoxview_top{ top: 0; width: 50%; }
+#yoxview .yoxview_element{ width: 100%; height: 100%; position: absolute;  border: none; background: #333; }
+
+.yoxview-thumbnails a
+{
+	float: left;
+	margin: 4px;
+	/* For thumbnails opacity: */
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.yoxview-thumbnails a:hover
+{
+	/* For thumbnails opacity: */
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.yoxview-thumbnails a img
+{
+	/* Set white borders around the thumbnails, instead of the browser's default Blue: */
+	border: solid 1px #ffffff;
+}
+.yoxview-thumbnails-details{ margin-bottom: 1em; }
+.yoxview-thumbnails-details h2{ margin-bottom: 0; padding: 0; font-size: 1.2em; font-weight: bold;}

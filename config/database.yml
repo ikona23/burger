@@ -1,0 +1,28 @@
+
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: xiii_development
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: xiii_test
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: rails
+  username: rails
+  password: WkN7idrYS8
+  pool: 5
+  hostname: localhost
+  timeout: 5000
