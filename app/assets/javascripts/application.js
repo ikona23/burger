@@ -59,8 +59,6 @@ $(document).ready(function() {
 });
 
 
-
-
 $(document).ready(function() {
 
     function contentSwitcher(settings){
@@ -121,4 +119,32 @@ $(document).ready(function() {
             $(this).height(maxHeight);
         }
     });
+
 });
+
+
+$(document).ready(function() {
+    var mapCanvas = document.getElementById('map-canvas');
+    var myLatLng = new google.maps.LatLng(48.141528, 17.110242);
+    var mapOptions = {
+        zoom: 13,
+        center: myLatLng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+
+    var infowindow = new google.maps.InfoWindow({
+        content: 'Regal Burger',
+        position: myLatLng
+    });
+    infowindow.open(map);
+
+    var infwindow = new google.maps.InfoWindow({
+        content: 'Regal Burger' +
+        ' Palackeho 4',
+        position: buLatLng
+    });
+    infowindow.open(map);
+});
+

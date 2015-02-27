@@ -1,19 +1,22 @@
+<% provide(:title, "CenovaPonuka") %>
 <div class="pop">
-<%= simple_form_for(@post) do |f| %>
-  <%= f.error_notification %>
+  <%= simple_form_for(@post) do |f| %>
+      <%= f.error_notification %>
 
-  <div class="form-inputs">
-    <%= f.input :meno, placeholder: 'Meno Priezvisko' %>
-    <%= f.input :email, placeholder: 'email@domain.com', :class => 'emailfield' %>
-    <%= f.input :telefon, placeholder: '0905 445 444',:class => 'telefield' %>
-  </div>
-    <div class="fielded">
-      <%= f.label :Typ_cateringu %>
-      <%= f.collection_radio_buttons :cat_id, Cat.all, :id, :meno, {promt: "Vyber si typ cateringu"}%><br>
-    </div>
-    <p>*-povinná pošta</p>
-    <div class="flat-button">
-    <%= f.button :submit %>
-  </div>
-<% end %>
-</div>
+      <div class="form-inputs">
+        <%= f.input :meno, placeholder: 'Meno Priezvisko' %>
+        <%= f.input :email, placeholder: 'email@domain.com', :class => 'emailfield' %>
+        <%= f.input :telefon, placeholder: '0905 445 444',:class => 'telefield' %>
+      </div>
+      <div class = "form-inputs">
+        <%= f.label :Typ_cateringu %></div>
+      <div class = "catering">
+        <%= f.collection_radio_buttons :vyber_id, Vyber.all, :id, :catering, {promt: "Vyber si typ cateringu"},:class =>'radio'%>
+      <p class="p_posta">*-povinné polia</p>
+      </div>
+      <div class="flat-button">
+        <%= f.button :submit ,"Odoslat", :class => 'tlacitko' %>
+      </div>
+      </div>
+  <% end %>
+

@@ -1,0 +1,4 @@
+<h3> Products under this category </h3>
+<% Vyber.where(vyber_id: @vyber.id).each do |post| %>
+    <li> <%= vyber.name %> </li>
+<% end %>

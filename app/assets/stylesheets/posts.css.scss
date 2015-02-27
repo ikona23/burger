@@ -1,7 +1,4 @@
-// Place all the styles related to the posts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-/* ----- SimpleForm Styles ----- */
+@import "bootstrap";
 
 .simple_form div.input {
   margin-bottom: 10px;
@@ -22,12 +19,182 @@ label.collection_radio_buttons {
   margin-left: 2px;
 }
 
-.simple_form .hint {
+.simple_form .hint
+{
   clear: left;
   margin-left: 120px;
   font-size: 12px;
   color: #555;
   display: block;
   font-style: italic;
-
 }
+
+p.povinna {
+  text-align:center;
+  margin-left:800px;
+}
+
+input#post_vyber_id_2 {
+  color: mediumvioletred;
+  background-color: red;
+}
+
+.tlacitko {
+  background-color: rgb(76, 76, 76);
+  width: 225px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-family: "myriad-pro",sans-serif;
+  color: rgb(237, 236, 230);
+  line-height: 1.2;
+  text-align: center;
+}
+
+//.input.string.required.post_meno.field_with_errors {
+//  margin-left: 300px;
+//}
+//
+//.input.email.required.post_email.field_with_errors {
+//  margin-left: 300px;
+//}
+//
+//.input.string.required.post_telefon.field_with_errors {
+//  margin-left: 300px;
+//}
+
+.field_with_errors {
+  padding: 2px;
+  border-color: #730E15;
+  border-bottom-style: dashed;
+}
+
+.alert.alert-error {
+  font-family: "myriad-pro",sans-serif;
+  margin-top:-20px;
+}
+
+.show {
+  background: #fefff9;
+  padding: 20px;
+}
+thead .mm {
+  background: yellowgreen;
+}
+
+.abbr {
+  background: red;
+}
+
+.form {
+  position:relative;
+}
+
+.form-inputs {
+  margin-right: 195px;
+}
+
+#post_vyber_id_1 {
+  background-color: greenyellow;
+  color:orangered;
+  margin-left:-20px;
+}
+
+.radio {
+  color: #000000;
+  display:inline;
+  font-weight: 100;
+  font-size:17px;
+  margin-left:-10px;
+}
+
+.povin {
+  color:greenyellow;
+  margin-left:400px;
+  background: orangered;
+}
+
+.form {
+  margin-top:100px;
+  width: 100%;
+  height:655px;
+  text-align: center;
+  background: image-url("papers.png") no-repeat center ;
+}
+
+.form h1 {
+  font-family: 'Angrogyne_TB';
+  text-align: center;
+  color:black;
+  padding-top:50px;
+}
+
+//.form p {
+//  font-family: "myriad-pro",sans-serif;
+//  font-size: 16px;
+//  color:black;
+//  line-height: 1.5;
+//  padding:30px;
+//  width:500px;
+//  margin-left:200px;
+//}
+
+#cenova_ponuka_meno {
+  width:230px;
+  height:25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(152, 151, 144);
+  background-color: rgb(235, 234, 228);
+}
+
+#cenova_ponuka_email {
+  width:230px;
+  height:25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(152, 151, 144);
+  background-color: rgb(235, 234, 228);
+}
+
+#cenova_ponuka_telefon {
+  width:230px;
+  height:25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(152, 151, 144);
+  background-color: rgb(235, 234, 228);
+}
+
+#ponuka_block {
+  float:left;
+  margin-left:400px;
+}
+
+.alert.alert-error {
+  display: none;
+}
+
+.input.string.required.post_meno.field_with_errors {
+  width: 600px;
+  color:darkred;
+}
+
+.input.email.required.post_email.field_with_errors {
+  width: 600px;
+  color:darkred;
+}
+
+.input.string.required.post_telefon.field_with_errors {
+  width: 600px;
+  color:darkred;
+}
+
+input.btn.tlacitko {
+  margin-top: -40px;
+  margin-left: 250px;
+}
+
+
+

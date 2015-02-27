@@ -1,0 +1,1761 @@
+/*
+
+*/
+/* ----- SimpleForm Styles ----- */
+@import url(yoxview.css);
+/* line 7, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.simple_form div.input {
+  margin-bottom: 10px;
+  clear: both;
+  /* Required for Webkit, but not for Gecko */
+}
+
+/* line 12, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.simple_form label .email {
+  position: absolute;
+  width: 100px;
+  left: 300px;
+  text-align: right;
+  margin: 2px 10px;
+}
+
+/* line 20, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+label.collection_radio_buttons {
+  margin-right: 10px;
+  vertical-align: -2px;
+  margin-left: 2px;
+}
+
+/* line 27, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.simple_form .hint {
+  clear: left;
+  margin-left: 120px;
+  font-size: 12px;
+  color: #555;
+  display: block;
+  font-style: italic;
+}
+
+/* line 36, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+p.povinna {
+  text-align: center;
+  margin-left: 800px;
+}
+
+/* line 41, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+input#post_vyber_id_2 {
+  color: mediumvioletred;
+  background-color: red;
+}
+
+/* line 46, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.tlacitko {
+  background-color: #4c4c4c;
+  width: 225px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-family: "myriad-pro",sans-serif;
+  color: #edece6;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* line 71, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.field_with_errors {
+  padding: 2px;
+  border-color: #730E15;
+  border-bottom-style: dashed;
+}
+
+/* line 77, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.alert.alert-error {
+  font-family: "myriad-pro",sans-serif;
+  margin-top: -20px;
+}
+
+/* line 82, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.show {
+  background: #fefff9;
+  padding: 20px;
+}
+
+/* line 86, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+thead .mm {
+  background: yellowgreen;
+}
+
+/* line 90, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.abbr {
+  background: red;
+}
+
+/* line 94, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.form {
+  position: relative;
+}
+
+/* line 98, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.form-inputs {
+  margin-right: 195px;
+}
+
+/* line 102, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+#post_vyber_id_1 {
+  background-color: greenyellow;
+  color: orangered;
+  margin-left: -20px;
+}
+
+/* line 108, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.radio {
+  color: #000000;
+  display: inline;
+  font-weight: 100;
+  font-size: 17px;
+  margin-left: -10px;
+}
+
+/* line 116, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.povin {
+  color: greenyellow;
+  margin-left: 400px;
+  background: orangered;
+}
+
+/* line 122, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.form {
+  margin-top: 100px;
+  width: 100%;
+  height: 655px;
+  text-align: center;
+  background: url(/assets/papers.png) no-repeat center;
+}
+
+/* line 130, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.form h1 {
+  font-family: 'Angrogyne_TB';
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+}
+
+/* line 147, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+#cenova_ponuka_meno {
+  width: 230px;
+  height: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #989790;
+  background-color: #ebeae4;
+}
+
+/* line 156, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+#cenova_ponuka_email {
+  width: 230px;
+  height: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #989790;
+  background-color: #ebeae4;
+}
+
+/* line 165, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+#cenova_ponuka_telefon {
+  width: 230px;
+  height: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #989790;
+  background-color: #ebeae4;
+}
+
+/* line 174, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+#ponuka_block {
+  float: left;
+  margin-left: 400px;
+}
+
+/* line 179, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.alert.alert-error {
+  display: none;
+}
+
+/* line 183, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.input.string.required.post_meno.field_with_errors {
+  width: 600px;
+  color: darkred;
+}
+
+/* line 188, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.input.email.required.post_email.field_with_errors {
+  width: 600px;
+  color: darkred;
+}
+
+/* line 193, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+.input.string.required.post_telefon.field_with_errors {
+  width: 600px;
+  color: darkred;
+}
+
+/* line 198, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/posts.css.scss */
+input.btn.tlacitko {
+  margin-top: -40px;
+  margin-left: 250px;
+}
+
+/* line 1, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.hide {
+  display: none;
+}
+
+/* line 5, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.tableform {
+  color: #323232;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 13, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 19, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.povinna {
+  margin-left: 300px;
+}
+
+/* line 23, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+label {
+  font-size: 18px;
+  font-family: "myriad-pro", sans-serif;
+  color: #6c6b64;
+  font-weight: bold;
+  line-height: 1.333;
+  text-align: left;
+  margin-right: 60px;
+}
+
+/* line 33, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+label.string.optional.control-label, label.email.optional.control-label {
+  margin-left: -236px;
+  margin-top: 20px;
+  position: static;
+}
+
+/* line 39, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+#notice {
+  color: green;
+}
+
+/* line 72, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+#flat-button {
+  font-size: 2em;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ----- SimpleForm Styles ----- */
+/* line 81, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.simple_form div.input {
+  margin-bottom: 10px;
+  clear: both;
+  /* Required for Webkit, but not for Gecko */
+}
+
+/* line 86, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.simple_form label .email {
+  position: absolute;
+  width: 100px;
+  left: 300px;
+  text-align: right;
+  margin: 2px 10px;
+}
+
+/* line 102, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.simple_form .hint {
+  clear: left;
+  margin-left: 120px;
+  font-size: 12px;
+  color: #555;
+  display: block;
+  font-style: italic;
+}
+
+/* line 111, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+#post_meno, #post_email {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #989790;
+  background-color: #ebeae4;
+  font-size: 1em;
+  color: black;
+  width: 286px;
+  font-family: "myriad-pro",sans-serif;
+  height: 45px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+/* line 125, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+#post_telefon {
+  border-style: solid;
+  border-width: 2px;
+  color: black;
+  border-color: #989790;
+  background-color: #ebeae4;
+  font-size: 1em;
+  width: 286px;
+  font-family: "myriad-pro",sans-serif;
+  height: 45px;
+  padding-left: 20px;
+  margin-left: -5px;
+}
+
+/* line 139, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.h2cen {
+  font-size: 16px;
+  font-family: "myriad-pro",sans-serif;
+  color: #4c4c4c;
+  line-height: 1.5;
+  width: 600px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: normal;
+}
+
+/* line 153, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.fielded {
+  width: 25%;
+  text-align: left;
+}
+
+/* line 159, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+label.radio {
+  margin-left: 10px;
+}
+
+/* line 184, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+abbr {
+  color: red;
+}
+
+/* line 188, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+th {
+  text-align: center;
+}
+
+/* line 191, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.pov {
+  color: yellowgreen;
+  margin-right: -30px;
+}
+
+/* line 196, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+label.radio {
+  display: inline;
+}
+
+/* line 200, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.pop {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 680px;
+  width: 30%;
+  color: white;
+}
+
+/* line 209, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.radio {
+  color: #2f2c25;
+  display: inline;
+  margin-right: 40px;
+}
+
+/* line 215, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.catering {
+  width: 75%;
+  position: relative;
+  top: -27px;
+  left: 180px;
+}
+
+/* line 222, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+.form p {
+  /* font-family: "myriad-pro",sans-serif; */
+  font-size: 16px;
+  /* color: black; */
+  line-height: 1.5;
+  padding: 30px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000000;
+}
+
+/* line 234, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+p.p_posta {
+  margin-left: -285px;
+  width: 400px;
+  color: #590000;
+}
+
+/* line 240, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+form#new_admin {
+  background: white;
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/* line 248, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+h2 {
+  color: #bdbdbd;
+}
+
+/* line 252, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+input#admin_email {
+  width: 150px;
+  background: lightgray;
+}
+
+/* line 257, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/scaffolds.css.scss */
+input[type="submit"] {
+  border: 2px;
+  border-color: black;
+  border-bottom-style: double;
+}
+
+/* line 1, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.hide {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Angrogyne_TB';
+  src: url(/assets/androgyne_tb-webfont.eot);
+  src: url(/assets/androgyne_tb-webfont.eot?#iefix) format("embedded-opentype"), url(/assets/androgyne_tb-webfont.woff2) format("woff2"), url(/assets/androgyne_tb-webfont.woff) format("woff"), url(/assets/androgyne_tb-webfont.ttf) format("truetype"), url(/assets/androgyne_tb-webfont.svg#androgyneregular) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RockwellExtraBoldRegular';
+  src: url(/assets/rockwell-extrabold.eot);
+  src: url(/assets/rockwell-extrabold.eot) format("embedded-opentype"), url(/assets/rockwell-extrabold.woff2) format("woff2"), url(/assets/rockwell-extrabold.woff) format("woff"), url(/assets/rockwell-extrabold.ttf) format("truetype"), url(/assets/rockwell-extrabold.svg#RockwellExtraBoldRegular) format("svg");
+}
+
+/* line 23, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 31, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+/* line 34, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+* html .clearfix {
+  height: 1%;
+}
+
+/* line 35, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.clearfix {
+  display: block;
+}
+
+/* End hide from IE-mac */
+/* line 38, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+body {
+  background: #000000;
+  background-color: #000000;
+  text-align: center;
+}
+
+/* line 42, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+/* line 49, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.wrapper {
+  width: 1280px;
+  padding: 0 10px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+/* line 58, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#header {
+  width: 100%;
+  height: 793px;
+  background: url(/assets/header.jpg) no-repeat center;
+}
+
+/* line 64, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#navbar {
+  width: 300px;
+  color: white;
+  text-align: center;
+  float: left;
+}
+
+/* line 70, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#main_content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+  color: white;
+  text-align: center;
+  float: left;
+}
+
+/* line 78, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#sidebar_main {
+  margin-left: 10px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  float: right;
+  padding-left: 30px;
+}
+
+/* line 90, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#pop_up {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+/* line 96, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle {
+  display: block;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px;
+}
+
+/* line 98, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+
+/* line 99, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle span:after {
+  top: 9px;
+}
+
+/* line 100, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+/* line 107, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #e1e5e8;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+/* line 117, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle.on span {
+  background-color: transparent;
+}
+
+/* line 120, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+/* line 123, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+
+/* line 126, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#toggle.on + #menu {
+  opacity: 1;
+}
+
+/* menu appearance*/
+/* line 131, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu {
+  position: relative;
+  width: 260px;
+  height: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 18px;
+  font-family: 'RockwellExtraBoldRegular';
+  color: black;
+  text-transform: uppercase;
+  line-height: 3.2;
+  text-align: left;
+  border-radius: 4px;
+  background: #fffcff;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  transition: opacity .4s;
+}
+
+/* line 149, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu:after {
+  position: absolute;
+  top: -15px;
+  margin-left: 70px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #fffcff;
+}
+
+/* line 159, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+ul, li, li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 165, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+li a {
+  padding: 5px;
+  color: #000000;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+/* line 172, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu li a:hover,
+#menu li a:focus {
+  color: #79babb;
+}
+
+/* line 178, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block {
+  padding-top: 50px;
+  float: left;
+  display: inline;
+  margin-right: 70px;
+}
+
+/* line 185, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block li {
+  display: inline;
+}
+
+/* line 190, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block .pinterest {
+  margin: 5px;
+}
+
+/* line 194, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block .twitter {
+  margin: 5px;
+}
+
+/* line 199, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#soc_block .fb {
+  margin: 5px;
+}
+
+/* line 205, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_title {
+  padding-top: 235px;
+}
+
+/* line 209, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_h2, #header_h2_2 {
+  font-family: 'Angrogyne_TB';
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  line-height: 1;
+  -moz-transform: matrix(0.83251, 0, 0, 0.83251, 0, 0);
+  -webkit-transform: matrix(0.83251, 0, 0, 0.83251, 0, 0);
+  -ms-transform: matrix(0.83251, 0, 0, 0.83251, 0, 0);
+}
+
+/* line 220, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_h2_2 {
+  margin-top: -7px;
+}
+
+/* line 224, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_1_h4 {
+  margin-top: 37px;
+  font-size: 23px;
+  text-align: center;
+  line-height: 1.4;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+}
+
+/* line 235, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_2_h4 {
+  font-size: 23px;
+  margin-top: -13px;
+  text-align: center;
+  line-height: 1.4;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+}
+
+/* line 247, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#main_content p {
+  margin-top: -10px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  line-height: 0.6;
+  font-weight: 300;
+}
+
+/* line 260, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#navigation {
+  width: 100%;
+  float: right;
+  margin-top: -50px;
+}
+
+/* line 267, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.test {
+  margin-left: 320px;
+  text-align: center;
+}
+
+/* line 272, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#navigation li {
+  float: left;
+  white-space: nowrap;
+  background: url(/assets/hovermenu.png) no-repeat left;
+  width: 220px;
+  height: 50px;
+  z-index: -1;
+}
+
+/* line 280, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#navigation a {
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 20px;
+  margin-top: 30px;
+  z-index: 2;
+}
+
+/* line 294, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#zlozenie {
+  width: 176px;
+  float: right;
+}
+
+/* line 299, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#zakladatel a {
+  float: left;
+}
+
+/* line 303, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#zakladatel {
+  margin-right: 100px;
+}
+
+/* line 307, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.burger {
+  color: #715b24;
+  padding-top: 17px;
+  padding-right: 25px;
+}
+
+/* line 313, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.burger:hover {
+  color: #000000;
+}
+
+/* line 316, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.zakladatel {
+  color: #715b24;
+  padding-top: 17px;
+  padding-right: 20px;
+}
+
+/* line 323, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.zakladatel:hover {
+  color: #000000;
+}
+
+/* line 327, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.zlozenie {
+  color: #715b24;
+  padding-top: 17px;
+  padding-right: 20px;
+}
+
+/* line 333, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.zlozenie:hover {
+  color: #000000;
+}
+
+/* line 337, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#about {
+  width: 100%;
+  height: 1455px;
+  background: url(/assets/wood.jpg) no-repeat center;
+}
+
+/* line 342, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#cover {
+  float: right;
+  margin-left: 250px;
+  width: 100%;
+  height: 1400px;
+  background: url(/assets/noline.png) no-repeat center;
+}
+
+/* line 350, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.sticker {
+  float: right;
+  position: relative;
+  top: -60px;
+  left: 100px;
+}
+
+/* line 357, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_about {
+  height: 80px;
+  padding: 10px;
+  color: #000000;
+  width: 720px;
+  margin-left: 300px;
+  margin-top: 80px;
+}
+
+/* line 366, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_about h1 {
+  text-align: center;
+  float: right;
+  margin-right: 70px;
+  font-family: 'Angrogyne_TB';
+  font-weight: 300;
+}
+
+/* line 374, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#content div {
+  float: left;
+}
+
+/* line 379, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_about {
+  clear: both;
+  height: 1000px;
+  margin-left: 470px;
+  margin-top: 130px;
+}
+
+/* line 387, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#oburgeri, #ozakladateloch {
+  width: 610px;
+  height: 1200px;
+  font-family: "myriad-pro",sans-serif;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 300;
+  margin-left: 341.937px;
+  margin-top: 150px;
+}
+
+/* line 397, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#oburgeri h1, #ozakladateloch h1 {
+  font-size: 24px;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  color: #79babb;
+  left: -50px;
+  line-height: 1;
+  text-align: left;
+  width: 590px;
+  height: 40px;
+}
+
+/* line 410, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#textContent {
+  margin-top: 60px;
+}
+
+/* line 413, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#textContent h1 {
+  margin-top: 60px;
+}
+
+/* line 417, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#textContent p {
+  margin-top: -20px;
+}
+
+/* line 424, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu_burger {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 905px;
+  background: url(/assets/bg.png) no-repeat center;
+  display: block;
+}
+
+/* line 433, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_menu_burger {
+  padding-top: 130px;
+  margin-left: 550px;
+  float: left;
+}
+
+/* line 439, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu_burger_frame {
+  width: 100%;
+  top: 50px;
+  height: 100%;
+  background: url(/assets/border.png) no-repeat center;
+}
+
+/* line 446, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_mnu_burger {
+  padding-top: 18px;
+  margin-left: 190px;
+  clear: both;
+  color: white;
+}
+
+/* line 453, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_mnu_burger div {
+  padding: 10px;
+  width: 280px;
+  float: left;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+}
+
+/* line 462, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-left_menu_burger {
+  width: 240px;
+  color: #d7d4cc;
+  text-align: center;
+  float: left;
+}
+
+/* line 469, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-main_menu_r_burger {
+  margin-left: 10px;
+  padding-left: 250px;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  width: 240px;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+/* line 479, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-right_menu_s_burger {
+  margin-left: 10px;
+  width: 240px;
+  color: #e0e0e0;
+  text-align: center;
+  float: right;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+}
+
+/* line 489, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#menu_burger_cover {
+  text-align: center;
+}
+
+/* line 493, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#icon_beef {
+  float: left;
+  text-align: center;
+}
+
+/* line 498, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_burger, .price_veggie, .price_spec {
+  background: url(/assets/cena.png) no-repeat;
+  height: 102px;
+  margin-left: 85px;
+  float: left;
+  margin-top: 10px;
+  font-family: "myriad-pro",sans-serif;
+}
+
+/* line 506, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_spec {
+  margin-top: 20px;
+}
+
+/* line 510, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.euro_burger {
+  margin-left: 20px;
+  float: left;
+}
+
+/* line 516, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_burger h1 {
+  color: #79babb;
+  font-size: 72px;
+  padding-top: 1px;
+  font-weight: bold;
+  margin-top: 1px;
+  line-height: 1.1;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+}
+
+/* line 529, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_veggie h1 {
+  color: #79babb;
+  font-size: 72px;
+  font-weight: bold;
+  margin-top: 1px;
+  line-height: 1.1;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  padding-top: 2px;
+}
+
+/* line 542, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.price_spec h1 {
+  color: #79babb;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-top: 1px;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  padding-top: 2px;
+}
+
+/* line 555, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.menu_separation {
+  float: left;
+  text-align: center;
+  margin-left: 330px;
+  margin-top: 30px;
+}
+
+/* line 562, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.vegetarian {
+  margin-top: 23px;
+}
+
+/* line 566, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_veggie {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+/* line 571, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_burger {
+  margin-left: 25px;
+}
+
+/* line 574, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.special {
+  margin-top: 25px;
+}
+
+/* line 578, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.special p {
+  margin-top: -30px;
+}
+
+/* line 582, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.special_recept p {
+  margin-top: -10px;
+  color: #d7d4cc;
+}
+
+/* line 587, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.vegetarian_recept p {
+  color: #d7d4cc;
+}
+
+/* line 592, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.double_regal {
+  color: #807d75;
+  padding-left: 40px;
+}
+
+/* line 597, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_special {
+  margin-left: 25px;
+}
+
+/* line 602, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad {
+  width: 100%;
+  clear: both;
+  z-index: 0;
+  height: 885px;
+  background: url(/assets/rect_wood.jpg) no-repeat center;
+}
+
+/* line 609, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad_wooden {
+  width: 100%;
+  z-index: 2;
+  height: 100%;
+  background: url(/assets/podklad.png) no-repeat center;
+}
+
+/* line 615, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad_wooden h1 {
+  width: 300px;
+  float: left;
+  padding-top: 130px;
+  margin-left: 500px;
+  font-size: 40px;
+  font-family: 'Angrogyne_TB';
+  font-weight: 300;
+}
+
+/* line 626, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.yoxview {
+  float: right;
+  margin-right: 125px;
+  margin-top: 30px;
+  width: 780px;
+}
+
+/* line 633, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad_head {
+  height: 80px;
+  padding: 5px;
+  color: #000000;
+  width: 720px;
+  margin-left: 270px;
+  margin-top: 80px;
+}
+
+/* line 642, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_vyklad_head h1 {
+  text-align: center;
+  float: right;
+  margin-right: 90px;
+  font-family: 'Angrogyne_TB';
+  font-weight: 300;
+}
+
+/* line 650, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 655, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.row1, .row2 {
+  padding: 10px;
+}
+
+/* line 658, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad div {
+  float: left;
+}
+
+/* line 662, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad-left {
+  width: 20px;
+  text-align: center;
+  float: left;
+  margin-top: 270px;
+  margin-left: 180px;
+}
+
+/* line 670, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad-right {
+  margin-left: 10px;
+  text-align: center;
+  float: right;
+  width: 70px;
+  margin-right: 40px;
+  padding-top: 450px;
+}
+
+/* line 680, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#vyklad-left svg {
+  width: 200%;
+}
+
+/* line 684, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#arrow_left:hover #one {
+  fill: #59564e;
+}
+
+/* line 688, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#arrow_left {
+  cursor: pointer;
+  width: 30%;
+}
+
+/* line 693, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#arrow_right {
+  width: 60%;
+  float: left;
+  position: relative;
+  left: -130px;
+  cursor: pointer;
+  margin-top: 26px;
+}
+
+/* line 702, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#arrow_right:hover #one {
+  fill: #59564e;
+}
+
+/* line 708, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_nacestach {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 905px;
+  background: url(/assets/bg.png) no-repeat center;
+  display: block;
+}
+
+/* line 717, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_nacestach_burger {
+  padding-top: 130px;
+  margin-left: 550px;
+  float: left;
+}
+
+/* line 723, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_nacestach_frame {
+  width: 100%;
+  top: 50px;
+  height: 100%;
+  background: url(/assets/border.png) no-repeat center;
+}
+
+/* line 730, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#header_regal_nacestach {
+  padding-top: 150px;
+  margin-left: 380px;
+  float: left;
+}
+
+/* line 736, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#content_mnu_nacestach {
+  padding-top: 25px;
+  margin-left: 80px;
+  clear: both;
+}
+
+/* line 743, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+p.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-size: 16px;
+  color: #9c9c9c;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+/* line 754, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+p.blocktext_center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-size: 16px;
+  color: #9c9c9c;
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+/* line 766, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_festivaly {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 771, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_rodina {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: -5px;
+}
+
+/* line 777, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-left_nacestach {
+  width: 240px;
+  color: white;
+  text-align: center;
+  float: left;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+
+/* line 786, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.text_party {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/* line 791, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#icon_tent {
+  float: left;
+  text-align: center;
+  margin-left: 50px;
+}
+
+/* line 797, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#icon_cup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 803, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-main_nacestach {
+  margin-left: 70px;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  width: 240px;
+  color: #ffffff;
+  text-align: center;
+  float: left;
+  margin-top: 60px;
+}
+
+/* line 815, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_party p {
+  margin-top: -20px;
+}
+
+/* line 819, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.regal_party {
+  width: 200px;
+}
+
+/* line 823, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#column-right_nacestach {
+  float: right;
+  width: 240px;
+  color: white;
+  text-align: center;
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  margin-right: 200px;
+  margin-top: 60px;
+}
+
+/* line 835, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#footer {
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #bbb;
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  clear: both;
+}
+
+/* line 846, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.cestach_button {
+  background: url(/assets/cest_button.png) no-repeat center;
+  width: 427px;
+  height: 70px;
+  text-align: center;
+  font-family: "RockwellExtraBoldRegular";
+  color: #313131;
+  text-transform: uppercase;
+  line-height: 1.2;
+  float: left;
+  margin-left: 350px;
+  margin-top: 50px;
+  clear: both;
+}
+
+/* line 861, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.cestach_button h1 {
+  padding-top: 2px;
+  margin-top: 12px;
+  font-size: 24px;
+}
+
+/* line 867, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#clear {
+  clear: both;
+}
+
+/* line 870, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.cestach_button:hover {
+  cursor: pointer;
+  -webkit-filter: drop-shadow(1px 5px 10px #222222);
+  filter: drop-shadow(1px 5px 10px #222222);
+  color: white;
+}
+
+/* line 877, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.cestach_button:hover h1 {
+  color: #59564e;
+}
+
+/* line 886, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#testimonials {
+  width: 100%;
+  height: 260px;
+  background: url(/assets/testimonials.png) no-repeat center;
+  float: left;
+}
+
+/* line 893, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#testimonialsBg {
+  width: 100%;
+  height: 260px;
+  background: url(/assets/podklad_test_papier.png) no-repeat center;
+}
+
+/* line 899, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#testimonials h1 {
+  font-size: 24px;
+  font-family: "RockwellExtraBoldRegular";
+  color: #a4c8cb;
+  text-transform: uppercase;
+  line-height: 1.2;
+  float: left;
+  margin-left: 420px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* line 912, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#testimonials h4 {
+  font-family: "myriad-pro",sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 400;
+  float: right;
+  margin-right: 463px;
+  margin-top: 20px;
+}
+
+/* line 925, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regalgram {
+  width: 100%;
+  height: 905px;
+  background: url(/assets/instagram_bg.png) no-repeat center;
+  float: left;
+  text-align: center;
+}
+
+/* line 933, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regal_border {
+  width: 100%;
+  top: 50px;
+  height: 100%;
+  background: url(/assets/border.png) no-repeat center;
+}
+
+/* line 940, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regalgram_header {
+  padding-top: 145px;
+  text-align: center;
+}
+
+/* line 945, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalgram_button {
+  background: url(/assets/cest_button.png) no-repeat center;
+  width: 427px;
+  height: 70px;
+  text-align: center;
+  font-family: "RockwellExtraBoldRegular";
+  font-weight: 900;
+  color: #313131;
+  text-transform: uppercase;
+  line-height: 1.2;
+  float: left;
+  margin-left: 420px;
+  margin-top: 50px;
+}
+
+/* line 960, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalgram_button h1 {
+  padding-top: 2px;
+  margin-top: 13px;
+  font-size: 24px;
+}
+
+/* line 965, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+li {
+  list-style: none;
+}
+
+/* line 968, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalgram_button:hover {
+  cursor: pointer;
+  -webkit-filter: drop-shadow(1px 5px 10px #222222);
+  filter: drop-shadow(1px 5px 10px #222222);
+  color: white;
+}
+
+/* line 975, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#map-canvas {
+  width: 680px;
+  height: 400px;
+  float: right;
+  margin-right: 303px;
+}
+
+/* line 982, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalgram_button:hover h1 {
+  color: #59564e;
+}
+
+/* line 986, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#regalgram_frame {
+  padding-top: 50px;
+  margin-top: 40px;
+}
+
+/* line 995, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#contact {
+  width: 100%;
+  height: 905px;
+  background: url(/assets/instagram_bg.png) no-repeat center;
+  float: left;
+  text-align: center;
+}
+
+/* line 1003, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#contact_header {
+  padding-top: 65px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+/* line 1009, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_contact {
+  text-align: center;
+  float: left;
+  margin-top: 35px;
+}
+
+/* line 1015, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_contact h5 {
+  font-size: 32px;
+  font-family: "RockwellExtraBoldRegular";
+  font-weight: 700;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 235px;
+  margin-top: 5px;
+}
+
+/* line 1026, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#head_contact p {
+  font-size: 24px;
+  font-family: "myriad-pro",sans-serif;
+  color: #A4C8CB;
+  line-height: 1.2;
+  text-align: center;
+  margin-left: 245px;
+  margin-top: 25px;
+}
+
+/* line 1036, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#map {
+  float: right;
+  margin-right: 260px;
+  margin-top: 40px;
+}
+
+/* line 1042, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.open_hours {
+  font-family: 'RockwellExtraBoldRegular';
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15px;
+  color: #dddddd;
+  float: left;
+  text-transform: uppercase;
+  margin-left: 420px;
+  margin-top: 25px;
+}
+
+/* line 1057, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+#social_contact {
+  clear: both;
+}
+
+/* line 1061, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.pin {
+  float: right;
+  font-size: 18px;
+  font-family: "myriad-pro",sans-serif;
+  color: #dedede;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* line 1070, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.twit {
+  padding-top: 35px;
+  float: left;
+  font-size: 18px;
+  font-family: "myriad-pro",sans-serif;
+  color: #dedede;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* line 1080, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.fac {
+  float: left;
+  margin-top: 35px;
+  font-size: 18px;
+  font-family: "myriad-pro",sans-serif;
+  color: #dedede;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 1091, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.facebook_footer {
+  float: left;
+  margin-top: 30px;
+  margin-left: 150px;
+  padding-right: 20px;
+}
+
+/* line 1099, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.twitter_footer {
+  padding-top: 30px;
+  float: left;
+  margin-left: 130px;
+  padding-right: 20px;
+}
+
+/* line 1106, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.pinterest_foot {
+  float: right;
+  margin-top: 35px;
+  margin-right: 150px;
+  padding-right: 5px;
+}
+
+/* line 1113, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.pinterest_footer {
+  float: left;
+  font-size: 18px;
+  padding-right: 20px;
+  margin-top: -5px;
+}
+
+/* line 1120, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.four_footer {
+  float: left;
+  margin-left: 530px;
+  margin-top: 40px;
+}
+
+/* line 1126, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.trip_footer {
+  float: right;
+  margin-right: 480px;
+  margin-top: 40px;
+}
+
+/* line 1132, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.foot_block {
+  float: left;
+}
+
+/* line 1136, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+footer {
+  height: 160px;
+  background: url(/assets/bg.png) no-repeat center;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 1143, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.regalburger_footer {
+  float: left;
+  color: white;
+  margin-left: 50px;
+  margin-top: 70px;
+  font-size: 14px;
+  font-family: "myriad-pro",sans-serif;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 1155, /Users/Core/Desktop/border/xiii/app/assets/stylesheets/welcome.css.scss */
+.provoc_footer {
+  float: right;
+  margin-right: 50px;
+  margin-top: 70px;
+  font-size: 14px;
+  font-family: "myriad-pro",sans-serif;
+  color: #dedede;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}

@@ -1,5 +1,9 @@
 Xiii::Application.routes.draw do
+
+  devise_for :admins
+  resources :vybers
   resources :posts
+
 
   get "welcome/index"
   # The priority is based upon order of creation: first created -> highest priority.

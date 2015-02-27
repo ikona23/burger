@@ -1,0 +1,264 @@
+.hide {
+  display:none;
+}
+
+.tableform {
+  color: #323232;
+  margin-top:100px;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+.povinna {
+  margin-left:300px;
+}
+
+label {
+  font-size: 18px;
+  font-family: "myriad-pro", sans-serif;
+  color: rgb(108, 107, 100);
+  font-weight: bold;
+  line-height: 1.333;
+  text-align: left;
+  margin-right: 60px;
+}
+
+label.string.optional.control-label, label.email.optional.control-label {
+  margin-left:-236px;
+  margin-top:20px;
+  position:static;
+}
+
+#notice {
+  color: green;
+}
+
+//.field_with_errors {
+//  padding: 2px;
+//  background-color: red;
+//  display: table;
+//}
+//
+//#error_explanation {
+//  width: 100%;
+//  border: 2px solid red;
+//  padding: 7px;
+//  padding-bottom: 0;
+//  margin-bottom: 20px;
+//  background-color: #f0f0f0;
+//  h2 {
+//    text-align: left;
+//    font-weight: bold;
+//    padding: 5px 5px 5px 15px;
+//    font-size: 12px;
+//    margin: -7px;
+//    margin-bottom: 0px;
+//    background-color: #c00;
+//    color: #fff;
+//  }
+//  ul li {
+//    font-size: 12px;
+//    list-style: square;
+//  }
+//}
+
+#flat-button {
+  font-size:2em;
+  margin-top:30px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* ----- SimpleForm Styles ----- */
+
+.simple_form div.input {
+  margin-bottom: 10px;
+  clear: both; /* Required for Webkit, but not for Gecko */
+}
+
+.simple_form label .email {
+  position:absolute;
+  width: 100px;
+  left: 300px;
+  text-align: right;
+  margin: 2px 10px;
+}
+
+
+//label.collection_radio_buttons {
+//  margin-right: 10px;
+//  vertical-align: -2px;
+//  margin-left: 10px;
+//  font-weight: normal;
+//}
+
+.simple_form .hint {
+  clear: left;
+  margin-left: 120px;
+  font-size: 12px;
+  color: #555;
+  display: block;
+  font-style: italic;
+}
+
+#post_meno, #post_email {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(152, 151, 144);
+  background-color: rgb(235, 234, 228);
+  font-size:1em;
+  color:black;
+  width: 286px;
+  font-family: "myriad-pro",sans-serif;
+  height: 45px;
+  padding-left:20px;
+  margin-left:10px
+}
+
+#post_telefon {
+  border-style: solid;
+  border-width: 2px;
+  color:black;
+  border-color: rgb(152, 151, 144);
+  background-color: rgb(235, 234, 228);
+  font-size:1em;
+  width: 286px;
+  font-family: "myriad-pro",sans-serif;
+  height: 45px;
+  padding-left:20px;
+  margin-left:-5px;
+}
+
+.h2cen {
+  font-size: 16px;
+  font-family: "myriad-pro",sans-serif;
+  color: rgb(76, 76, 76);
+  line-height: 1.5;
+  width :600px;
+  text-align:left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+  margin-bottom:30px;
+  font-weight: normal;
+}
+
+.fielded {
+  width: 25%;
+  text-align: left;
+
+}
+
+label.radio {
+  margin-left: 10px;
+}
+
+//.field_with_errors {
+//  padding: 2px;
+//  background-color: #eccdbd;
+//  font-family: "myriad-pro",sans-serif;
+//  display: table;
+//  border-color: #730E15;
+//  border-bottom-style: dashed;
+//}
+//
+//.input.string.required.post_meno.field_with_errors {
+//  margin-left: 300px;
+//}
+//
+//.input.email.required.post_email.field_with_errors {
+//  margin-left: 300px;
+//}
+//
+//.input.string.required.post_telefon.field_with_errors {
+//  margin-left: 300px;
+//}
+
+abbr {
+  color: red;
+}
+
+th {
+  text-align: center;
+}
+.pov {
+  color:yellowgreen;
+  margin-right:-30px;
+}
+
+label.radio {
+  display:inline;
+}
+
+.pop {
+//  background: lightskyblue;
+  margin-left: auto;
+  margin-right: auto;
+  min-width:680px;
+  width: 30%;
+  color:white;
+}
+
+.radio {
+  color: #2f2c25;
+  display:inline;
+  margin-right: 40px;
+}
+
+.catering {
+  width: 75%;
+  position: relative;
+  top: -27px;
+  left: 180px;
+}
+
+.form p {
+  /* font-family: "myriad-pro",sans-serif; */
+  font-size: 16px;
+  /* color: black; */
+  line-height: 1.5;
+  padding: 30px;
+  width: 30%;
+  margin-left:auto;
+  margin-right:auto;
+  color: #000000;
+}
+
+p.p_posta {
+  margin-left: -285px;
+  width: 400px;
+  color: #590000;
+}
+
+form#new_admin {
+  background: white;
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+}
+h2 {
+  color: #bdbdbd;
+}
+
+input#admin_email {
+  width:150px;
+  background: lightgray;
+}
+
+input[type="submit"] {
+
+  border: 2px;
+  border-color: black;
+  border-bottom-style: double;
+}
+
+

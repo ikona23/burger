@@ -2,8 +2,8 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="Rails xiii: production" uuid="c99e4a3b-94d0-4d23-9223-bf7658f02e8e">
-      <secret-storage>memory</secret-storage>
       <user-name>rails</user-name>
+      <user-password>dffddfc1dfe4df9ddfc3dfcedfd8dff3dff9df92</user-password>
     </data-source>
   </component>
 </project>

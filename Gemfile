@@ -32,17 +32,21 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+  gem 'bootstrap-sass', '~> 3.3.3'
+  gem 'bootstrap_form'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
 gem 'unicorn'
-
+gem 'devise'
 gem 'simple_form', '~> 3.0.2'
 gem 'will_paginate', '~> 3.0.6'
-
+gem 'will_paginate-bootstrap', '~> 1.0.1'
 gem 'jquery-turbolinks'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development

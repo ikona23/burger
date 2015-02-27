@@ -68,8 +68,8 @@ body {background: #000000; background-color: #000000;text-align: center; }
   float:left;
 }
 #main_content {
-  margin-left:10px;
-  padding-top:15px;
+  margin-left: auto;
+  margin-right: auto;
   width:640px;
   color:white;
   text-align:center;
@@ -83,6 +83,8 @@ body {background: #000000; background-color: #000000;text-align: center; }
   float:right;
   padding-left:30px;
 }
+
+
 
 //--------NAVIGATION-HEADER----------
 #pop_up {
@@ -215,8 +217,12 @@ li a {
   -ms-transform: matrix( 0.83250633862186,0,0,0.83250633862186,0,0);
 }
 
+#header_h2_2 {
+  margin-top:-7px;
+}
+
 #header_1_h4,{
-  margin-top: 40px;
+  margin-top: 37px;
   font-size: 23px;
   text-align: center;
   line-height: 1.4;
@@ -228,7 +234,7 @@ li a {
 
 #header_2_h4 {
   font-size:23px;
-  margin-top:-3px;
+  margin-top:-13px;
   text-align:center;
   line-height: 1.4;
   font-family: "myriad-pro",sans-serif;
@@ -239,7 +245,7 @@ li a {
 
 
 #main_content p {
-  margin-top: 2px;
+  margin-top: -10px;
   text-align: center;
   font-size: 14px;
   color:white;
@@ -495,7 +501,7 @@ li a {
   height:102px;
   margin-left:85px;
   float:left;
-  margin-top:10px
+  margin-top:10px;  font-family: "myriad-pro",sans-serif;
 }
 .price_spec {
   margin-top:20px
@@ -510,8 +516,9 @@ li a {
 .price_burger h1{
   color: rgb(121, 186, 187);
   font-size: 72px;
-  padding-top: 2px;
+  padding-top: 1px;
   font-weight: bold;
+  margin-top:1px;
   line-height: 1.1;
   text-align: center;
   font-family: "myriad-pro",sans-serif;
@@ -523,6 +530,7 @@ li a {
   color: rgb(121, 186, 187);
   font-size: 72px;
   font-weight: bold;
+  margin-top:1px;
   line-height: 1.1;
   text-align: center;
   font-family: "myriad-pro",sans-serif;
@@ -536,6 +544,7 @@ li a {
   font-size: 72px;
   font-weight: bold;
   line-height: 1.1;
+  margin-top:1px;
   text-align: center;
   font-family: "myriad-pro",sans-serif;
   font-style: normal;
@@ -687,6 +696,7 @@ li a {
   position:relative;
   left:-130px;
   cursor:pointer;
+  margin-top: 26px;
 }
 
 #arrow_right:hover #one {
@@ -761,7 +771,7 @@ p.blocktext_center {
 .text_rodina{
   text-align:center;
   margin-top:15px;
-  margin-left:15px;
+  margin-left:-5px;
 }
 
 #column-left_nacestach {
@@ -834,7 +844,6 @@ p.blocktext_center {
   clear:both;
 }
 .cestach_button {
-
   background: image-url("cest_button.png") no-repeat center ;
   width:427px;
   height:70px;
@@ -851,6 +860,8 @@ p.blocktext_center {
 
 .cestach_button h1 {
   padding-top: 2px;
+  margin-top:12px;
+  font-size: 24px;
 }
 
 #clear {
@@ -904,10 +915,9 @@ p.blocktext_center {
   text-align: center;
   font-weight: 400;
   float:right;
-  margin-right: 475px;
+  margin-right: 463px;
   margin-top: 20px;
 }
-
 
 //------REGALGRAM-----
 
@@ -919,12 +929,14 @@ p.blocktext_center {
   float:left;
   text-align: center;
 }
+
 #regal_border {
   width:100%;
   top: 50px;
   height:100%;
   background: image-url("border.png") no-repeat center ;
 }
+
 #regalgram_header {
   padding-top:145px;
   text-align: center;
@@ -947,13 +959,24 @@ p.blocktext_center {
 
 .regalgram_button h1 {
   padding-top: 2px;
+  margin-top:13px;
+  font-size: 24px;
 }
-
+li {
+  list-style: none;
+}
 .regalgram_button:hover {
   cursor:pointer;
   -webkit-filter: drop-shadow(1px 5px 10px #222);
   filter: drop-shadow(1px 5px 10px #222);
   color:white;
+}
+
+#map-canvas {
+  width: 680px;
+  height: 400px;
+  float:right;
+  margin-right:303px;
 }
 
 .regalgram_button:hover h1{
@@ -987,9 +1010,6 @@ p.blocktext_center {
   text-align: center;
   float:left;
   margin-top:35px;
-
-
-
 }
 
 #head_contact h5 {
@@ -1011,14 +1031,12 @@ p.blocktext_center {
   text-align: center;
   margin-left: 245px;
   margin-top: 25px;
-
 }
 
 #map {
   float:right;
   margin-right:260px;
   margin-top:40px;
-
 }
 
 .open_hours {
@@ -1031,13 +1049,12 @@ p.blocktext_center {
   color: rgb(221, 221, 221);
   float:left;
   text-transform: uppercase;
-  margin-left:470px;
+  margin-left:420px;
   margin-top:25px;
 }
 
 
 #social_contact {
-
   clear:both;
 }
 
@@ -1059,6 +1076,7 @@ p.blocktext_center {
   line-height: 1.2;
   text-align: center;
 }
+
 .fac {
   float:left;
   margin-top:35px;
@@ -1068,7 +1086,6 @@ p.blocktext_center {
   line-height: 1.2;
   text-align: center;
   text-decoration:none;
-
 }
 
 .facebook_footer {
@@ -1077,7 +1094,6 @@ p.blocktext_center {
   margin-top:30px;
   margin-left:150px;
   padding-right:20px;
-
 }
 
 .twitter_footer {
@@ -1085,7 +1101,6 @@ p.blocktext_center {
   float:left;
   margin-left:130px;
   padding-right:20px;
-
 }
 
 .pinterest_foot {
@@ -1093,14 +1108,13 @@ p.blocktext_center {
   margin-top:35px;
   margin-right:150px;
   padding-right:5px;
-
 }
+
 .pinterest_footer {
   float:left;
   font-size: 18px;
   padding-right:20px;
   margin-top: -5px;
-
 }
 
 .four_footer {
@@ -1108,6 +1122,7 @@ p.blocktext_center {
   margin-left:530px;
   margin-top:40px;
 }
+
 .trip_footer {
   float:right;
   margin-right:480px;
@@ -1119,13 +1134,11 @@ p.blocktext_center {
 }
 
 footer {
-
   height:160px;
   background: image-url("bg.png") no-repeat center ;
   display: block;
   text-decoration:none;
 }
-
 
 .regalburger_footer{
   float:left;
@@ -1134,7 +1147,6 @@ footer {
   margin-top:70px;
   font-size: 14px;
   font-family: "myriad-pro",sans-serif;
-  color: rgb(222, 222, 222);
   line-height: 1.2;
   text-align: center;
   text-decoration:none;
@@ -1155,60 +1167,5 @@ footer {
 //------FORM-----
 
 
-.form {
-  margin-top:100px;
-  width: 100%;
-  height:655px;
-  text-align: center;
-  background: image-url("papers.png") no-repeat center ;
-}
-.form h1 {
-  font-family: 'Angrogyne_TB';
-  text-align: center;
-  color:black;
-  padding-top:50px;
-}
 
-.form p {
-  font-family: "myriad-pro",sans-serif;
-  font-size: 16px;
-  color:black;
-  line-height: 1.5;
-  text-align: left;
-  padding:30px;
-  width:500px;
-  margin-left:200px;
-
-}
-
-#cenova_ponuka_meno {
-  width:230px;
-  height:25px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(152, 151, 144);
-  background-color: rgb(235, 234, 228);
-}
-
-#cenova_ponuka_email {
-  width:230px;
-  height:25px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(152, 151, 144);
-  background-color: rgb(235, 234, 228);
-}
-#cenova_ponuka_telefon {
-  width:230px;
-  height:25px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(152, 151, 144);
-  background-color: rgb(235, 234, 228);
-}
-
-#ponuka_block {
-  float:left;
-  margin-left:400px;
-}
 

@@ -10,7 +10,8 @@ module Xiii
   class Application < Rails::Application
 
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
-    config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
+    config.assets.precompile << /\.(?:svg|eot|woff|ttf|png|jpeg|gif|jpg)\z/
+    config.assets.precompile += [".css",".scss" ".js"]
     config.serve_static_assets = true
 
     # Settings in config/environments/* take precedence over those specified here.

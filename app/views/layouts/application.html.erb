@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>regalburger.com</title>
+  <title><%= full_title(yield(:title)) %></title>
   <meta charset="UTF-8">
   <meta name="description" content="regalburger website">
-  <meta name="keywords" content="burger, oslavy, firemne akcie, kecup, majoneza, syr, vajicko">
+  <meta name="keywords" content="burger, oslavy, firemne akcie, kecup, majoneza, syr, vajicko, hranolky, catering">
   <meta name="author" content="Peter Kona">
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= stylesheet_link_tag    "application", :media => "all",
+                             'data-turbolinks-track' => true %>
   <%= javascript_include_tag "application" %>
-  <%= javascript_include_tag 'rails' %>
+  <%= javascript_include_tag 'rails', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag src="https://maps.googleapis.com/maps/api/js" %>
 
   <%= csrf_meta_tags %>
 </head>

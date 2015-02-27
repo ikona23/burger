@@ -8,6 +8,16 @@ development:
   password:
   socket: /tmp/mysql.sock
 
+
+
+
+
+
+
+
+
+
+
 test:
   adapter: mysql2
   encoding: utf8

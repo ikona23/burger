@@ -1,3 +1,5 @@
+<% provide(:title, "Objednavka") %>
+<div class="form">
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -15,5 +17,11 @@
   <%= @post.telefon %>
 </p>
 
+<p>
+  <strong>Typ:</strong>
+  <%= Vyber.find(@post.vyber_id).catering%>
+</p>
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
+</div>
