@@ -72,10 +72,12 @@ label.string.optional.control-label, label.email.optional.control-label {
 //}
 
 #flat-button {
-  font-size:2em;
+  font-size:3em;
   margin-top:30px;
   margin-left:auto;
   margin-right:auto;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 /* ----- SimpleForm Styles ----- */
@@ -251,13 +253,20 @@ h2 {
   color: #bdbdbd;
 }
 
-input#admin_email {
-  width:150px;
-  background: lightgray;
+input#admin_email, input#admin_password {
+  order-style: solid;
+  border-width: 2px;
+  border-color: #989790;
+  background-color: #ebeae4;
+  font-size: 1em;
+  color: black;
+  width: 185px;
+  font-family: "myriad-pro",sans-serif;
+  height: 45px;
+  padding-left: 20px;
 }
 
 input[type="submit"] {
-
   border: 2px;
   border-color: black;
   border-bottom-style: double;

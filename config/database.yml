@@ -1,4 +1,3 @@
-
 development:
   adapter: mysql2
   encoding: utf8
@@ -7,16 +6,6 @@ development:
   username: root
   password:
   socket: /tmp/mysql.sock
-
-
-
-
-
-
-
-
-
-
 
 test:
   adapter: mysql2

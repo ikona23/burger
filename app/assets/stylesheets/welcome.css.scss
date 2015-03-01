@@ -203,7 +203,7 @@ li a {
 //-------header title--------
 
 #header_title {
-  padding-top: 235px;
+  padding-top: 215px;
 }
 
 #header_h2, #header_h2_2{
@@ -245,7 +245,8 @@ li a {
 
 
 #main_content p {
-  margin-top: -10px;
+  margin-top: -7px;
+  margin-left:-5px;
   text-align: center;
   font-size: 14px;
   color:white;
@@ -253,6 +254,11 @@ li a {
   font-style: normal;
   line-height: 0.6;
   font-weight: 300;
+}
+
+.logo {
+  margin-top:20px;
+  margin-left:20px;
 }
 
 //------------ ABOUT-BURGER--------------
