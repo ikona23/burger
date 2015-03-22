@@ -164,27 +164,6 @@ label.radio {
   margin-left: 10px;
 }
 
-//.field_with_errors {
-//  padding: 2px;
-//  background-color: #eccdbd;
-//  font-family: "myriad-pro",sans-serif;
-//  display: table;
-//  border-color: #730E15;
-//  border-bottom-style: dashed;
-//}
-//
-//.input.string.required.post_meno.field_with_errors {
-//  margin-left: 300px;
-//}
-//
-//.input.email.required.post_email.field_with_errors {
-//  margin-left: 300px;
-//}
-//
-//.input.string.required.post_telefon.field_with_errors {
-//  margin-left: 300px;
-//}
-
 abbr {
   color: red;
 }
@@ -257,7 +236,7 @@ input#admin_email, input#admin_password {
   order-style: solid;
   border-width: 2px;
   border-color: #989790;
-  background-color: #ebeae4;
+  background-color: #9f9e98;
   font-size: 1em;
   color: black;
   width: 185px;
@@ -270,6 +249,22 @@ input[type="submit"] {
   border: 2px;
   border-color: black;
   border-bottom-style: double;
+  font-size:1.5em;
+}
+
+input.btn.tlacitko {
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+}
+
+form#new_admin {
+  background: rgba(235, 235, 234, 0.99);
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
 }
 
 

@@ -130,7 +130,7 @@ $(document).ready(function() {
     function initialize() {
         var myLatLng = new google.maps.LatLng(48.141528, 17.110242);
         var mapOptions = {
-            zoom: 12,
+            zoom: 14,
             center: myLatLng,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
@@ -151,7 +151,7 @@ $(document).ready(function() {
         var marker = new google.maps.Marker({
             position: location,
             map: map,
-            labelContent: "$425K",
+            labelContent: "Regal Burger",
             labelAnchor: new google.maps.Point(22, 0),
             labelClass: "labels", // the CSS class for the label
             labelStyle: {opacity: 0.75},
@@ -187,3 +187,11 @@ $(document).ready(function() {
     google.maps.event.addDomListener(window, 'load', initialize);
 
 });
+
+$(document).ready(function() {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
